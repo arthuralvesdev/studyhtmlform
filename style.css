@@ -1,13 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     width: 500px;
     margin: auto;
 }
 
-main {
-    box-sizing:
-}
 
 .login {
     color: white;
@@ -26,18 +25,19 @@ main {
     
 }
 
-
+.username {
+    font-weight: bold;
+}
 
 .password {
     font-weight: bold;
 
 }
 
-.username {
-    font-weight: bold;
-    
-
+.username-section {
+    padding: 6px;
 }
+
 
 input {
     width: 100%;
@@ -46,6 +46,7 @@ input {
     border: 1px solid #ccc;
     box-sizing: border-box;
     outline: none;
+    font-size: 16px;
 
 }
 
@@ -60,32 +61,32 @@ input {
 
 }
 
-.remember__section {
+.remember-section {
     display: flex;
     justify-content: space-between;
     background-color: rgba(189, 189, 189, 1);
-    padding: 8px;
+    padding: 10px;
     margin-top: 10px;
-    
+    text-align: justify;
+    align-items: center;
 
 
 }
 
 .remember {
     display: flex;
+    width: 160px;
     
 }
 
-.remember__text {
-    margin: ;
-}
 
 
-#input__password {
+
+#input-password {
     width: 350px;
 }
 
-#input__username {
+#input-username {
     width: 350px;
 }
 
